@@ -7,39 +7,8 @@ Motivo: Os grid atuais não te dão liberdade para fazer alterações na bibliot
 
 Modo de usar:
 <code>
- $("#table").grid({
-	url_edit: 'save.php',
-	url_load: 'load.php',
-	grid_data: [],
-	fields: [
-		{ 
-			label: "identificacao", 
-			name: "identificacao",
-			type: "text",
-			style: "width:170px;"
-		},
-		{ 
-			label: "Vaterinario", 
-			name: "veterinario_id",				
-			type: "select",
-			option_value: "id",
-			option_text: "name",
-			options: data_veterinarios,
-			style: "width:100px;"
-		}
-	],
-	load_data: function (){
-		$.ajax({
-			url: 'load.php', 
-			success: function( data ) {
-				$("#table").grid('update', jQuery.parseJSON( data ) );				
-			}
-		});				
-	}
-});			
-
-$("#table").grid('load');
-
+ $("#table").grid(grid_options);			
+ $("#table").grid('load');
 </code>
 
 
