@@ -6,7 +6,7 @@ JGrid - Biblioteca para criar uma grade dinâmica.
 Motivo: Os grid atuais não te dão liberdade para fazer alterações na biblioteca, por este motivo criei uma grade simplificada com as funcionalidades que tinha necessidade.
 
 Modo de usar:
-<pre>
+<code>
 <html>
 <head>
         <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
@@ -81,7 +81,7 @@ Modo de usar:
 </html>
 
 
-</pre>
+</code>
 
 
 Dependencias:
