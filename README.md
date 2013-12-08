@@ -7,8 +7,11 @@ Motivo: Os grid atuais não te dão liberdade para fazer alterações na bibliot
 
 Modo de usar:
 <code>
- $("#table").grid(grid_options);			
+
+ $("#table").grid(grid_options);		
+ 
  $("#table").grid('load');
+ 
 </code>
 
 
