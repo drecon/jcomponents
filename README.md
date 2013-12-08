@@ -8,9 +8,9 @@ Motivo: Os grid atuais não te dão liberdade para fazer alterações na bibliot
 Modo de usar:
 <code>
 
- $("#table").grid(grid_options);		
+ $("#mygrid").grid(grid_options);		
  
- $("#table").grid('load');
+ $("#mygrid").grid('load');
  
 </code>
 
